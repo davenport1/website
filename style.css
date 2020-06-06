@@ -1,6 +1,8 @@
 
 html {
-    background-color: rgb(176, 196,222);
+    background: linear-gradient(35deg,  	
+    #1E5D79,  	
+    #747779);
 }
 body {
     color: black;
@@ -26,4 +28,9 @@ body {
     border-radius: 50%;
     border-width: 15px;
     border-color:rgb(10, 39, 77)
+}
+
+p2 {
+    width: 75%;
+    background-color: rgb(58, 70, 85)
 }
