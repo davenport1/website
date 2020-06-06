@@ -1,0 +1,29 @@
+
+html {
+    background-color: rgb(176, 196,222);
+}
+body {
+    color: black;
+}
+.heading {
+    text-align: center;
+    padding: 30px;
+}
+.main {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    
+}
+.links {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.pic {
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 15px;
+    border-color:rgb(10, 39, 77)
+}
