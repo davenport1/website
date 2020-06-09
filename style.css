@@ -1,36 +1,71 @@
 
-html {
+html , body {
     background: linear-gradient(35deg,  	
     #1E5D79,  	
     #747779);
-}
-body {
-    color: black;
-}
-.heading {
-    text-align: center;
-    padding: 30px;
-}
-.main {
-    margin: 0 auto;
-    width: 500px;
-    text-align: center;
-    
-}
-.links {
-    text-align: center;
+    display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 
+    font-family: 'Open-Sans', sans-serif ;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row; 
+    max-width: 55%;
+    height: 80%;
+}
+.nameTitle {
+    margin: 5px; 
+    max-width: 50%;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 30px;
 }
 .pic {
-    border-style: solid;
     border-radius: 50%;
-    border-width: 15px;
-    border-color:rgb(10, 39, 77)
+    max-width: 200px;
+}
+.name {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+}
+.title {
+    font-size: 24px;
 }
 
-p2 {
-    width: 75%;
-    background-color: rgb(58, 70, 85)
+.bioLinks {
+    margin: 5px; 
+    max-width: 50%;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bio {
+    font-size: 18px;
+    margin-bottom: 15px; 
+}
+.links {
+    font-size: 14px;
+    list-style: none;
+    padding-left: 0px;
+}
+.links li{
+    display: inline-block;
+    margin-right: 8px;
+}
+.links a {
+    text-decoration: none;
+    padding: 4px;
+}
+.links a :hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
